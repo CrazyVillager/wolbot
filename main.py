@@ -8,7 +8,7 @@ load_dotenv()
 # 環境変数読み込み
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 DEVICES = {
-        "desktop": "9C:6B:00:51:D0:9F"
+        "desktop": "<your desktop MAC address>"
 }
 
 class WolBot(discord.Client):
